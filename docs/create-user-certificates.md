@@ -57,3 +57,6 @@ kubectl config view
 ```
 kubectl --kubeconfig john.kubeconfig config set-cluster kubernetes --server https://172.42.42.100:6443 --certificate-authority=ca.cert
 ```
+```
+kubectl --kubeconfig john.kubeconfig config set-context john-kubernetes --cluster kubernetes --namespace finance --user john  
+```
